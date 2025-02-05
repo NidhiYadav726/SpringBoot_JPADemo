@@ -21,15 +21,16 @@ git clone https://github.com/NidhiYadav726/SpringBoot_JPADemo.git
 ### 2. Add H2 and PostgreSQL Dependency in pom.xml
 
 ```
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+
+    <dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <scope>runtime</scope>
+</dependency>
 		
  IF USING POSTGRES DATABASE use THIS DEPENDENCY-->
 	<dependency>
